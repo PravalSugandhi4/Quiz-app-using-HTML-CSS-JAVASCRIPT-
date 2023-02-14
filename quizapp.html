@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="quizapp.css">
+  <title>quizapp</title>
+</head>
+<body>
+<div class="startquiz active"> Start quiz </div>
+
+<div class="quizbox inactive ">
+  <h2 class="ques_text">Here que will appear</h2>
+  <div class="options">
+   <div class="option1" id="i1" >Option1</div>
+   <div class="option2" id="i2">Option2</div>
+   <div class="option3" id="i3">Option3</div>
+   <div class="option4" id="i4">Option4</div>
+  </div>
+<div class="quizfooter">
+  <div class="nextbtn"> Skip Question </div>
+</div>
+<div class="end inactive">Answer record sucessfully !!</div>
+</div>
+
+<div class="resultbox inactive">
+  <h2>Result</h2>
+  <div class="result">
+    <h3 class="totalque">Total Questions:-<span> </span></h3>
+    <h3 class="rightans">Correct answer:-<span> </span></h3>
+    <h3 class="wrongans">Incorrect/Skip answer:-<span> </span></h3>
+</div>
+
+
+  <div class="resultfooter">
+    <div class="againquiz">
+      Play again
+    </div>
+    <div class="exitquiz">
+      Exit
+    </div>
+  </div>
+</div>
+
+<script src="quizapp.js"> </script>
+</body>
+</html>
